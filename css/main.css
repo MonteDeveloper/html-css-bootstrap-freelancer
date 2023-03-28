@@ -1,4 +1,14 @@
-.debug .portfolioImg{
+.debug .my-portfolioImg{
     width: 150px;
     height: 150px;
+}
+
+.debug .my-card{
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* ------------------------------------------ */
+html{
+    scroll-behavior: smooth;
 }
