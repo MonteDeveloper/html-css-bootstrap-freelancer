@@ -12,3 +12,12 @@
 html{
     scroll-behavior: smooth;
 }
+
+.my-formItem, textarea{
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+textarea{
+    min-height: 200px;
+}
