@@ -13,6 +13,16 @@ html{
     scroll-behavior: smooth;
 }
 
+section{
+    scroll-margin-top: 56px;
+}
+
+header::after{
+    content: '';
+    display: block;
+    height: 56px;
+}
+
 .my-formItem, textarea{
     border: none;
     border-bottom: 1px solid lightgray;
@@ -20,4 +30,14 @@ html{
 
 textarea{
     min-height: 200px;
+}
+
+.my-circleLogo{
+    width: 35px;
+    height: 35px;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
 }
