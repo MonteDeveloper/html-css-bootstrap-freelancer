@@ -9,23 +9,25 @@
 }
 
 /* ------------------------------------------ */
-html{
-    scroll-behavior: smooth;
+:root{
+    --header-height: 56px;
 }
 
-section{
-    scroll-margin-top: 56px;
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-height);
 }
 
 header::after{
     content: '';
     display: block;
-    height: 56px;
+    height: var(--header-height);
 }
 
 .my-formItem, textarea{
     border: none;
     border-bottom: 1px solid lightgray;
+    outline: 0;
 }
 
 textarea{
