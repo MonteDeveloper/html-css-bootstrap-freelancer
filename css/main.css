@@ -41,3 +41,11 @@ textarea{
     border-radius: 50%;
     padding: 10px;
 }
+
+button{
+    transition: background-color .2s !important;
+}
+
+.my-bgGreen     { background-color: #20bb9b;}
+.my-bgDark      { background-color: #304051;}
+.my-bgClearDark { background-color: #3d556d;}
